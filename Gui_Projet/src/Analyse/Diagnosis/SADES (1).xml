@@ -1,0 +1,170 @@
+﻿<erreurs>
+	<erreur nom="63">	
+		<analyse>	
+			 Quand il y a deux emprunts à la suite, vous effectuer le premier emprunt correctement, mais dans le second, vous ne décrémentez pas.
+		</analyse>
+		<diagnostic>	
+			Vous avez bien effectue l'opération de soustraction dans la première colonne, mais dans le principe de soustraction on effectue les opérations colonne par colonne.
+			Donc s'il est nécessaire d'effectue plusieurs emprunts, on les effectues tout on appliquons le principe d'emprunt.
+		</diagnostic>		
+	</erreur>	
+	<erreur nom="64">	
+		<analyse>	
+			 vous n’empruntez qu’une fois par opération . Si un autre emprunt est nécessaire dans la même opération , vous incrémentez le 10 correctement, mais ne décrémentez pas la colonne de gauche. S’il y a emprunt sur 0, vous changez le 0 en 9, mais ne décrémentez pas le chiffre de la colonne de gauche .
+		</analyse>
+		<diagnostic>
+			Vous avez bien effectuer l'opération de soustraction dans la première colonne, mais dans le principe de soustraction on effectue les opérations colonne par colonne.
+			Donc s'il est nécessaire d'effectue plusieurs emprunts si nécessaire , on les effectues tout en appliquons le principe d'emprunt.
+			Le principe d'emprunt consiste de deux phases. La première est l'incrémentation de 10 en cas de besoin et de soustraire, La deuxième et la décrementation de la colonne de gauche qui en découle :
+			- Forme 1 : (0-N) avec N>0	:	(0+10)-N = 10-N		: et de décrementer de la colonne suivante à gauche.
+			- Forme 2 : (M-N) avec N>M	:	(M+10)-N = 10+M-N	: et de décrementer de la colonne suivante à gauche.
+			Si l'emprunt se fait sur un zero, on re-empruntent de nouveau, on incrémente de 10 puis on décremente de 9 à cause de l'emprunt de la colonne précedente, sans oblier bien-sûr de décrementer de 1 la colonne de gauche suivante.
+		</diagnostic>		
+	</erreur>	
+	<erreur nom="65">	
+		<analyse>	
+			 Quand vous empruntez d’une colonne dans laquelle le chiffre du haut est plus petit que celui du bas, vous incrémentez au lieu de décrémenter celle-ci.
+		</analyse>
+		<diagnostic>	
+			Quand vous avez empruntez, vous avez incrementer correctement de 10 dans la colonne adéquate à l'emprunt, mais il y a une décrementation de 1 qui en découle qu'il faut effectuer dans la colonne à gauche , et non pas incrementer cette dernière.
+		</diagnostic>
+	</erreur>
+
+	
+	<erreur nom="66">
+		<analyse>
+			Quand vous empruntez,vous incrementer de 10 correctement, mais vous ne decrementez pas la colonne de gauche .
+		<diagnostic>
+			Chaque emprunt est systématiquement suivis d'une decrementation de 1 de la colonne dont vous avez emprunter ( celle de gauche). 
+		</diagnostic>
+	</erreur>
+	<erreur nom="67">
+		<analyse>
+			Quand une colonne est de la forme 1-N, vous écrivez 1 comme réponse à cette colonne.
+		</analyse>
+		<diagnostic>
+			Dans le cas où N est superieur à 1, Vous devez emprunter,et continuer l'opération . 
+		</diagnostic>
+	</erreur>
+	<erreur nom="68">
+		<analyse>
+			Chaque fois qu’une colonne présente le même chiffre en haut et en bas ( Forme N-N ) ,vous écrivez ce chiffre comme réponse( N).
+		</analyse>
+		<diagnostic>
+			Quand une colonne est sous forme de N-N le resultat est non pas N mais bien 0 .
+		</diagnostic>
+	</erreur>
+	<erreur nom="69">
+		<analyse>
+			vous ne décrémentez pas un chiffre qui est au-dessus d’un vide, même apres emprunt.
+		</analyse>
+		<diagnostic>
+			le vide sous un nombre ne change rien, vous pouvez le considérer comme un 0.
+		</diagnostic>
+	</erreur>
+	<erreur nom="70">
+		<analyse>
+			Quand vous empruntez d’un 0 au-dessus d’un vide, vous incrémentiez le 0 au lieu de le décrementer.
+		</analyse>
+		<diagnostic>
+			Il faut décrementer de 1 le 0 depuis lequelle vous avez emprunter, et non pas l'incrementer !
+		</diagnostic>
+	</erreur>
+	<erreur nom="71">
+		<analyse>
+		 Si vous avez déjà emprunté d’une colonne de la forme N-9, lorsque vous arrivez à cette colonne, vous soustrayez 1 au lieu de soustraire 9.
+		</analyse>
+		<diagnostic>
+			Quand le nombre du bas est egal a 9 , il faut soustraire 9 et non pas 1.
+		</diagnostic>
+	</erreur>
+	<erreur nom="72">
+		<analyse>
+			Quand vous empruntez d’une colonne de la forme N-N, vous écrivez 1 comme réponse à cette colonne.
+		</analyse>
+		<diagnostic>
+			Quand une colonne est sous la forme N-N , le processus de l'emprunt reste le même sans exception .
+		</diagnostic>
+	</erreur>
+	<erreur nom="74">
+		<analyse>
+			Vous n’empruntez pas, dans chaque colonne,vous soustrayez le plus petit chiffre du plus grand, peu importe leurs positions respectives.
+		</analyse>
+		<diagnostic>
+			vous devez respecter l'ordre et soustraire le chiffre du bas du chiffre du haut , et effectuer des emprunts si cela se montre nécessaire.
+		</diagnostic>
+	</erreur>
+	<erreur nom="76">
+		<analyse>
+			Vous ne soustrayez pas ; vous copiez plutôt les chiffres de l’exercice dans l’espace réservé à la réponse.
+		</analyse>
+		<diagnostic>
+			 Il convient de retirer le chiffre du bas du chiffre du haut. Cette opération ne pose pas de problème particulier, sauf si le chiffre du bas est supérieur à celui du haut,dans ce cas :vous devez emprunter de la colonne de gauche en incrementant la colonne actuelle de 10 et en decrementant celle de laquelle vous avez emprunter de 1.
+		</diagnostic>
+	</erreur>
+	<erreur nom="77">
+		<analyse>
+			vous n’empruntez jamais, écrivant plutôt 0 comme réponse à toute colonne exigeant un emprunt
+		</analyse>
+		<diagnostic>
+			Si le nombre du bas est plus grand que celui en haut, vous devez emprunter de la colonne de gauche en incrementant la colonne actuelle de 10 et en decrementant celle de laquelle vous avez emprunter de 1.
+		</diagnostic>
+	</erreur>
+	<erreur nom="79">
+		<analyse>
+			Au lieu de décrémenter,vous ajoutez 1 à la colonne de laquelle vous empruntez;
+		</analyse>
+		<diagnostic>
+			Quand on emprunte d'une colonne , on se doit de la décrementer de 1 par la suite et d'incrementer de 10 celle qui emprunte .
+		</diagnostic>
+	</erreur>
+	<erreur nom="80">
+		<analyse>
+			vous additionnez au lieu de soustraire.
+		</analyse>
+		<diagnostic>
+			Vous devez soustraire et non additionner!
+		</diagnostic>
+	</erreur>
+	<erreur nom="81">
+		<analyse>
+			vous additionnez au lieu de soustraire. Et vous ne pretez pas attention aux retenues!
+		</analyse>
+		<diagnostic>
+			Ceci est une soustraction et non une addition ,donc il faut soustraire. De plus il fau incremnter dans le cas de retenue dans l'addition.
+		</diagnostic>
+	</erreur>
+	<erreur nom="82">
+		<analyse>
+			Quand vouz empruntez d’une colonne dans laquelle le chiffre du haut est plus petit que celui du bas, vous incrementer de 10 le chiffre du haut, décrémentez la colonne d’où vous empruntez et vous re-empruntez de la colonne de gauche. Sans oublier le fait que vous ignorer toute colonne comportante un 0 sur 0 ou un 0 sur un vide dans le processus de l'emprunt.
+		</analyse>
+		<diagnostic>
+			Quand on emprunte on emprunte toujours de la colonne de gauche , par consequent on incremente de 10 le chiffre du haut de la colonne actuelle , puis on decremente de 1 la colonne de gauche . Quand il s'agit d'une colonne comportant un 0 sur un 0 , on effectue l'emprunt normalement , pour ce qui est d'un 0 sur un vide , il n'ya aucun mprunt a faire . Mais dans les deux cas on doit decrementer de 1 si la colonne a été préceder par un emprunt .
+		</diagnostic>
+	</erreur>
+	<erreur nom="85">
+		<analyse>
+			Vous ne décrémentez pas une colonne que sauf si le nombre du bas est plus petit que celui du haut
+		</analyse>
+		<diagnostic>
+			Quand vous empruntez, vous devez décrémenter la colonne à gauche, peut importe lequel est le plus grand .
+		</diagnostic>
+	</erreur>
+	<erreur nom="86">
+		<analyse>
+			Vous empruntez du nombre du bas au lieu de celui du haut.
+		</analyse>
+		<diagnostic>
+			Il faut que vous empruntiez du nombre du haut.
+		</diagnostic>
+	</erreur>
+	<erreur nom="87">
+		<analyse>
+			Quand vous empruntez,vous décrémentez le plus grand nombre dans la colonne, sans prendre compte si il est celui d'en haut ou bien celui d'en bas .
+		</analyse>
+		<diagnostic>
+			Il faut soit incrémenter le nombre du bas soit décrémentiez celui du haut.
+		</diagnostic>
+	</erreur>
+
+</erreurs>

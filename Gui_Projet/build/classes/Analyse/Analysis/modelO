@@ -1,0 +1,4 @@
+// cas 42 et 43
+
+Regle 42 : Quand vous devez emprunter sur un 0 et que cet emprunt est causé par un autre 0, vous n’empruntez pas. vous écrivez plutôt le nombre du bas comme réponse à la colonne. vous avez emprunte correctement dans la colonne suivante dans les autres circonstances.
+Regle 43 : Quand vous devez emprunter sur un 0 et que cet emprunt est causé par un autre 0, vous changez le 0 duquel vous empruntez en un 10 au lieu d’un 9.

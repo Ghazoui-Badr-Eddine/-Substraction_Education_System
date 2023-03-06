@@ -1,0 +1,54 @@
+Regle 1 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+-vous avez appliqué ici une règle qui dit il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut.
+-Vous ne traitez pas les emprunts comme il faut, 
+-vous devez ajouter l'emprunt au chiffre du nombre haut au lieux de chenger le chiffre.
+-Vous ne respectez pas le principe de soustraction, 
+-vous devez soustrayer le plus grand nombre du petit, sinon vous devez ajouter des emprunts.
+Regle 1 fin
+
+
+Regle 2 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+-vous avez appliqué ici une règle qui dit "il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut".
+-Vous ne traitez pas les emprunts comme il faut, 
+-vous devez ajouter l'emprunt au chiffre du nombre haut au lieux de chenger le chiffre.
+-Vous ne respectez pas la disposition des chiffres, 
+-vous devez soustrayer le chiffre le plus grand nombre du petit, sinon vous devez ajouter l'emprunt puis vous ferez la soustraction.
+Regle 2 fin
+
+Regle 3 debut
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous appliqué ici une règle qui dit "si les deux nombres sont égaux le résultat de la soustraction est 0".
+-Vous ne connaissez pas le principe de la soustraction des nombres égaux, vous ne soustrayez pas les deux chiffres dans la colonne .
+-Vous devez soustraire les deux chiffres, s'il sont égaux le résultat sera 0.
+Regle 3 fin
+
+Regle 4 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous avez appliqué ici une règle qui dit "il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut".
+-Vous ne respectez pas l'utilisation des emprunts, vous devez ajouter l'emprunt au chiffre de la colonne.
+-Vous ne maitrisez pas le principe de la decrementation du retenue, vous devez decrementer le chiffre du bas.
+Regle 4 fin 
+
+Regle 5 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous avez appliqué ici une règle qui dit "il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut".
+-Vous ne respectez pas le principe de l'emprunt, vous devez ajouter l'emprunt au chiffre du nombre haut.
+Regle 5 fin :
+
+
+Regle 5 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous avez appliqué ici une règle qui dit "il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut".
+-Vous ne respectez pas le principe de l'emprunt, vous devez ajouter l'emprunt au chiffre du nombre haut.
+Regle 5 fin
+
+Regle 7 debut 
+-Vous avez effectué la soustraction correctement dans certain colonne,
+-vous avez appliqué ici une règle qui dit "il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut".
+-Vous n'utilisez pas les emprunts correctement, 
+-vous devez ajouter l'emprunt au chiffre de la colonne.
+-Vous ne maitrisez pas le principe de la decrementation du retenue, 
+-vous devez decrementer le chiffre du premier nombre.
+Regle 7 fin

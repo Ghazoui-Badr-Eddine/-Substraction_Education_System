@@ -1,0 +1,6 @@
+Regle 79 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous appliquez ici une règle qui dit "il faut decrementez le retenue de l'emprunt".
+-Vous ne traitez pas le retenue de l'emprunt correctement, 
+vous devez decrementez le premier chiffre dans la colonne du retenue.
+Regle 79 fin

@@ -1,0 +1,4 @@
+Regle 68 : - Chaque fois qu’une colonne présente le même chiffre en haut et en bas, vous écrivez ce chiffre comme réponse.
+Regle 69 : - vous ne décrémentez pas un chiffre qui est au-dessus d’un vide.
+Regle 70 : - Quand vous empruntez d’un 0 au-dessus d’un vide, vous augmentez le 0 au lieu de le diminuer.",
+Regle 76 : - vous ne soustrayez pas ; vous copiez plutôt les chiffres de l’exercice dans l’espace réservé à la réponse, retenant le chiffre le plus à gauche du nombre du haut et les autres chiffres du nombre du bas

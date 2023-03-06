@@ -1,0 +1,44 @@
+﻿
+Vous ne voyez pas
+Vous ne connaissez pas
+Vous ne respectez pas
+
+Model D
+26 et 28  et 31 et 34 et 39
+La première colonne qui demande un emprunt est décrémentée avant de soustraire.
+pourquoi il l’a fait
+Regle 26 : Vous ne respectez pas les disposition des chiffre de la colonne
+Regle 28 : Vous ne respectez pas l'order de decementation d'un colone
+Regle 31 : Vous ne r'ajoutez pas l'emprunt au nomber de haut
+Regle 34 : -Vous avez effectué la soustraction dans la 1er colonne correctement
+-Vous ne respectez pas le principe de l'emprunt,\n vous devez ajouter l'emprunt au chiffre du nombre haut suivant \n même s'il s'agit de 0
+-Vous ne pouvez pas emprunter deux fois du même nombre
+Regle 39 : Vous ne respectez pas l'order de decementation d'un colone
+
+
+Model F
+49 et 45 et 51 et 52
+Regle 49 : Vous ne respectez pas les disposition des chiffre de la colonne
+Regle 45 : Vous ne respectez pas la disposition de decrementation
+Regle 51 : Vous ne respectez pas la decrementation d'un colone lorsque il s'agit d'un emprunt
+Regle 52 :
+
+Model  G
+58 et 59 et 60
+Regle 58 : Vous avez appliqué ici une régle qui dit ne pas soustraire le grand nombre du petit nombre ;
+Regle 59 : Vous ne respectez pas les diposition des chifres de la colonne traité
+Regle 60 : Vous ne respectez pas les diposition des chifres de la colonne traité; Vous ne respecez pas l'emprunt
+
+
+// autres 10 cas
+Model I
+68 et 69 et 70 et 76
+Regle 68 :
+Regle 69 :
+Regle 70 :
+Regle 76 :
+
+Model J
+82 et 84
+Regle 82 :
+Regle 84 :

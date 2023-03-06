@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EFECCA;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.BienveanuController">
+    <stylesheets>
+        <URL value="@/Css/bienveanu.css" />
+    </stylesheets>
+   <children>
+      <BorderPane layoutX="-1.0" prefHeight="393.0" prefWidth="600.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Label prefHeight="72.0" prefWidth="254.0" text="Bienvenue au Systéme T.I.D.E.S" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="23.0" />
+               </font>
+            </Label>
+         </top>
+         <bottom>
+            <Button fx:id="Commencer" mnemonicParsing="false" onAction="#Onclick" prefHeight="25.0" prefWidth="87.0" text="Commencer" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Button>
+         </bottom>
+         <center>
+            <VBox prefHeight="277.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="250.0" fitWidth="421.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/img_app.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label prefHeight="36.0" prefWidth="603.0" text="Cette Application  vous aide à comprendre les causes de vos erreurs lors d'une opération de soustractions">
+                     <VBox.margin>
+                        <Insets left="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

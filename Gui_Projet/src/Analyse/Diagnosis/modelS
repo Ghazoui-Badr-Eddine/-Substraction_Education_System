@@ -1,0 +1,25 @@
+
+Regle 80 debut :
+-Vous n'avez pas effectué la soustraction correctement
+vous appliquez ici les règles suivante:
+"on emprunt à 10 si le premier chiffre est le plus petit"
+"il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut"
+"il faut soustraire le plus grand nombre du plus petit"
+"il faut decrementez le retenue de l'emprunt".
+-Vous ne connaissez pas le principe de la soustraction,
+vous devez soustraire le plus grand nombres du plus petit,avec prise en consideration la disposition des chiffres ainsi que les emprunts et les retenues.
+Regle 80 fin
+
+
+Regle 81 debut :
+-Vous n'avez pas effectué la soustraction correctement
+vous appliquez ici les règles suivante:
+"on emprunt à 10 si le premier chiffre est le plus petit"
+"il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut"
+"il faut soustraire le plus grand nombre du plus petit"
+"il faut decrementez le retenue de l'emprunt".
+-Vous ne connaissez pas le principe de la soustraction,
+vous devez soustraire le plus grand nombres du plus petit,avec prise en consideration la disposition des chiffres ainsi que les emprunts.
+-Vous ne traitez pas le retenue de l'emprunt correctement, 
+vous devez decrementez le premier chiffre dans la colonne du retenue.
+Regle 81 fin :

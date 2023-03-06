@@ -1,0 +1,10 @@
+
+
+Regle 9 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous appliquez ici deux règles qui disent il faut toujours ajouter l'emprunt à 10 au chiffre du nombre haut  et il faut decrementez le retenue de l'emprunt.
+-Vous n'utilisez pas les emprunts correctement, 
+vous devez ajouter l'emprunt au chiffre de la colonne.
+-Vous ne connaissez pas décrementez le retenue sur un 0,
+vous devez empruntez avant de décrementez le retenue.
+Regle 9 fin

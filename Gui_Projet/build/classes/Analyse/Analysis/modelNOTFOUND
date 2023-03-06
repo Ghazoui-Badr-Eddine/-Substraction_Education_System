@@ -1,0 +1,15 @@
+Regle 76 : Quand une colonne est de la forme 1-N, vous écrivez 1 comme réponse à cette colonne.
+Regle 68 : Chaque fois qu’une colonne présente le même chiffre en haut et en bas, vous écrivez ce chiffre comme réponse.
+Regle 72 : Si vous empruntez d’une colonne de la forme N-N, vous écrivez ensuite 1 comme réponse à cette colonne.
+Regle 30 : Quand une colonne est de la forme N-N, vous ecrivez 9 comme réponse et décrémentez la colonne suivante à gauche bien que l’emprunt ne soit pas nécessaire
+Regle 15 : vous  ne décrémentez pas une colonne qui a un chiffre au-dessus d’un vide.
+Regle 16 : Quand la colonne à l’extrême gauche de l’exercice comprend un 1 au-dessus d’un vide, vous ignorez la colonne
+Regle 22 : vous empruntez toujours de la colonne à l’extrême gauche plutôt que de celle immédiatement à gauche.
+Regle 23 : vous empruntez la différence entre le chiffre du haut et celui du bas de la colonne où vous opèrez. En d’autres mots, vous empruntez juste assez pour faire la soustraction dans cette colonne où vous obtenez toujours un 0.
+Regle 56 : vous n’empruntez pas. Pour les colonnes de la forme 0-N, vous écrivez N comme réponse et pour celles du type petit nombre – (moins) grand nombre, vous  mettez 0
+Regle 66 : Quand vous empruntez, vous avez  ajoute 10 correctement, mais ne changez aucune colonne à gauche
+Regle 71 : Si vous  avez déjà emprunté d’une colonne de la forme N-9, l’apprenant, lorsque vous  arrivez à cette colonne, soustrayez 1 au lieu de soustraire 9.
+Regle 74 : vous n'empruntez  pas ; dans chaque colonne, vous soustrayez le plus petit chiffre du plus grand, peu importe leurs positions respectives.
+Regle 77 : vous n'empruntez  jamais, écrivant plutôt 0 comme réponse à toute colonne exigeant un emprunt.
+Regle 67 : Quand une colonne est de la forme 1-N, vous écrivez 1 comme réponse à cette colonne.
+Regle 78 :vous additionnez au lieu de soustraire, mais vous soustrayez la retenue au lieu de l’ajouter

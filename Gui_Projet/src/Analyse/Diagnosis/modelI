@@ -1,0 +1,11 @@
+Regle 69 debut :
+le vide sous un nombre ne change rien, vous pouvez le considérer comme un 0.
+Regle 69 fin
+
+Regle 70 debut :
+Il faut décrementer de 1 le 0 depuis lequelle vous avez emprunter, et non pas l'incrementer !
+Regle 70 fin
+
+Regle 76 debut :
+Il convient de retirer le chiffre du bas du chiffre du haut. Cette opération ne pose pas de problème particulier, sauf si le chiffre du bas est supérieur à celui du haut,dans ce cas :vous devez emprunter de la colonne de gauche en incrementant la colonne actuelle de 10 et en decrementant celle de laquelle vous avez emprunter de 1.
+Regle 76 fin

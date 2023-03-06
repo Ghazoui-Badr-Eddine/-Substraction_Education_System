@@ -1,0 +1,7 @@
+Regle 1 : - vous remplacez l'emprunt retourn2 par le chiffre de la colonne 2 du premier nombre,il vous reste un 0 dans la colonne 2  du premier nombre.vous soustrayez le plus petit nombre du plus grand,
+Regle 2 : - vous soustrayez le plus grand nombre du plus petit ; peut import leur position
+Regle 3 : - vous ecrivez le chiffre repeté dans les deux nombres
+Regle 4 : - Quand vous empruntez un 1, vous  considère 1 de l'emprunt comme sil était 10 et vous décrémentez
+Regle 5 : - Quand vous emprunte dun 1, vous  change ce 1 en 10 au lieu de 0
+Regle 6 : - vous changez le 1 en 10 au lieu de lui ajouter 10
+"-********", //Case 7

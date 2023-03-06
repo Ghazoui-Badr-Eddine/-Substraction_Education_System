@@ -1,0 +1,4 @@
+Regle 63 : Quand il y a deux emprunts à la suite, vous faites le premier emprunt correctement, mais dans le second, vous ne décrémentez pas (mais ajoute 10 correctement)
+Regle 65 : Quand vous empruntez d’une colonne dans laquelle le chiffre du haut est plus petit que celui du bas, vous incrémentez au lieu de décrémenter
+Regle 73 : Une fois que vous avez emprunté, vous continuez à le faire pour chacune des colonnes qui restent dans l’exercice
+Regle 83 : vous empruntez pour chacune des colonnes, que cela soit ou non nécessaire.

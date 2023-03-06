@@ -1,0 +1,9 @@
+Regle 48 : Quand vous empruntez sur un 0, vous changez le 0 en 10 au lieu de 9. Cependant, si ce 0 est au-dessus d’un autre 0, l’apprenant fait une retenue au lieu d’écrire 10 comme réponse à cette colonne.
+Regle 50 : Au lieu d’emprunter de 0, vous ajoutez 10 à la colonne où vous effectuez son calcul, mais ne décrémentez aucune colonne à gauche.
+Regle 53 : Au lieu d’emprunter sur un 0, vous ne changez pas ce 0, mais décrémentez plutôt la colonne suivante à gauche. De plus, s’il vous faut emprunter d’une colonne commençant par un 0 qui devrait alors être modifié, vous écrivez 0 comme réponse à cette colonne.
+Regle 45 : Quand  vous empruntez d’une colonne de la forme 0-N, vous décrémentez le N au lieu du zéro.
+Regle 35 : Au lieu d’emprunter sur un 0, vous ne changez pas ce 0, mais décrémentez plutôt la colonne suivante à gauche. De plus, s’il vous faut emprunter d’une colonne commençant par un 0 qui devrait alors être modifié, vous écriez 0 comme réponse à cette colonne.
+Regle 54 : Au lieu d’emprunter sur un 0, vous ne changez pas ce 0, mais décrémentez plutôt la colonne suivante à gauche. De plus, s’il vous faut emprunter d’une colonne commençant par un 0 qui devrait alors être modifié, l’apprenant écrit le chiffre du bas comme réponse à cette colonne.
+Regle 64 : vous n’empruntez qu’une fois par exercice. Si un autre emprunt est nécessaire,
+vous ajoutez le 10 correctement, mais ne décrémentez pas. S’il y a emprunt sur 0, vous
+changez le 0 en 9, mais ne décrémentez pas le chiffre à gauche du 0.

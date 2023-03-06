@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="223.0" prefWidth="425.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@/Css/choixtache.css" />
+    </stylesheets>
+   <children>
+      <RadioButton fx:id="sys" layoutX="30.0" layoutY="53.0" mnemonicParsing="false" text="Systéme">
+         <toggleGroup>
+            <ToggleGroup fx:id="choix_tache" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="user" layoutX="30.0" layoutY="127.0" mnemonicParsing="false" selected="true" text="Utilisateur" toggleGroup="$choix_tache" />
+      <ComboBox fx:id="mycom" layoutX="173.0" layoutY="49.0" prefHeight="25.0" prefWidth="218.0" promptText="Selectionnez Votre Choix" />
+      <Label layoutX="204.0" layoutY="127.0" text="l'utilisateur rentre les deux nombres" />
+      <ImageView fitHeight="33.0" fitWidth="31.0" layoutX="173.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Icons/user_write.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="valider" layoutX="336.0" layoutY="174.0" mnemonicParsing="false" onAction="#Choix_Button" prefHeight="25.0" prefWidth="75.0" text="Ok" />
+   </children>
+</AnchorPane>

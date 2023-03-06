@@ -1,0 +1,7 @@
+// pas encore
+Regle 9  : Au lieu d’emprunter sur un 0 au-dessus d’un autre 0, vous  ne changez pas le premier 0, mais vous décrémentez plutôt la colonne suivante à gauche.
+Regle 10 :  Au lieu d’emprunter sur un 0, vous changez le 0, mais vous ne décrémentez aucune colonne àgauche.
+Regle 11 : Quand vous empruntez sur un 0 qui surmonte un autre 0, vous sautez par-dessus le premier 0 et diminuez le chiffre suivant à gauche.
+Regle 12 : Quand vous empruntez sur un 0, vous  changez le 0 en 10 et vous ne décrémentez aucun chiffre à gauche. Cependant, si le 10 ainsi créé est au-dessus d’un 0, vous faites une retenue au lieu d’essayer d’écrire 10 dans la réponse.
+Regle 13 : Quand vous empruntez sur un 0 surmontant un vide, vous sautez à la colonne suivante pour décrémenter.
+Regle 14 : Quand vous empruntez sur un 0 au-dessus d’un vide, vous considèrez la colonne où il y a ce 0 comme si elle n’existait pas.

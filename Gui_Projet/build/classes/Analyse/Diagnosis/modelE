@@ -1,0 +1,19 @@
+Regle 24 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous appliquez ici une règle qui dit "on emprunt à 10 si le premier chiffre est le plus petit".
+-Vous ne maitrisez pas le principe de l'emprunt,
+vous devez emprunter si le premier chiffre est plus petit que le dexieme.
+-Vous ne connaissez pas le principe de la soustraction,
+vous devez continuer la soustraction jusqu'à ce que vous traiterez toutes les colonnes.
+-Vous ne maitrisez pas le principe de la decrementation du retenue, 
+vous devez decrementer le chiffre du premier nombre.
+Regle 24 fin :
+
+Regle 25 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous appliquez ici une règle qui dit "on emprunt à 10 si le premier chiffre est le plus petit".
+-Vous ne maitrisez pas le principe de l'emprunt,
+vous devez emprunter si le premier chiffre est plus petit que le dexieme.
+-Vous ne connaissez pas le principe de la soustraction,
+-vous ne devez continuer la soustraction jusqu'à ce que vous traiterez toutes les colonnes.
+Regle 25 fin :

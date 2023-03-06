@@ -1,0 +1,3 @@
+Regle 58 : - Quand vous rencontrez une colonne de la forme 0-N, vous n’empruntez pas, mais écrit plutôt 0 comme réponse dans cette colonne
+Regle 59 : - Quand vous rencontrez une colonne de la forme 0-N, vous n’empruntez pas, mais écrit plutôt N comme réponse dans cette colonne.
+Regle 60 : - Quand un emprunt est causé par un 0, vous n’empruntez pas, mais  vous traitez le 0 comme s’il était un 9

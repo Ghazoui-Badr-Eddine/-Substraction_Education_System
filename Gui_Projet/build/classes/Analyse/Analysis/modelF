@@ -1,0 +1,5 @@
+Regle 45 : - Quand vous empruntez d’une colonne de la forme 0-N, vous décrémentez le N au lieu du zéro
+Regle 49 : - vous n’empruntez pas sur un 0, soustrayant plutôt le plus petit chiffre du plus grand dans la colonne où l’emprunt serait requis
+Regle 51 : - Au lieu d’emprunter sur un 0, vous  changez ce 0 en 9, mais vous ne continuez pas pour aller emprunter de la colonne à gauche.
+Regle 52 : - vous n’empruntez pas d’un 0, vous écriver  plutôt 0 comme réponse à la colonne exigeant l’emprunt.
+Regle 46 : - Quand vous empruntez sur un 0, vous  changez le 0 en 10 et vous ne décrémentez aucun chiffre à gauche.

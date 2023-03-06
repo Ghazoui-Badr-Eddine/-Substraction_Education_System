@@ -1,0 +1,12 @@
+Regle 64 debut
+Vous avez bien effectuer l'opération de soustraction dans la première colonne, mais dans le principe de soustraction on effectue les opérations colonne par colonne.
+			Donc s'il est nécessaire d'effectue plusieurs emprunts si nécessaire , on les effectues tout en appliquons le principe d'emprunt.
+			Le principe d'emprunt consiste de deux phases. La première est l'incrémentation de 10 en cas de besoin et de soustraire, La deuxième et la décrementation de la colonne de gauche qui en découle :
+			- Forme 1 : (0-N) avec N>0	:	(0+10)-N = 10-N		: et de décrementer de la colonne suivante à gauche.
+			- Forme 2 : (M-N) avec N>M	:	(M+10)-N = 10+M-N	: et de décrementer de la colonne suivante à gauche.
+			Si l'emprunt se fait sur un zero, on re-empruntent de nouveau, on incrémente de 10 puis on décremente de 9 à cause de l'emprunt de la colonne précedente, sans oblier bien-sûr de décrementer de 1 la colonne de gauche suivante.
+Regle 64 fin
+
+Regle 35 debut :
+vous ne maîtrisez pas le concept de la soustraction, vous avez mit 9 à la place de 10 car cette emprunte à causé par d’autre.
+Regle 35 fin

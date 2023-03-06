@@ -1,0 +1,30 @@
+Regle 65 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+-vous appliquez ici une règle qui dit "il faut decrementez le retenue de l'emprunt".
+-Vous ne traitez pas le retenue de l'emprunt correctement, 
+-vous devez decrementez le premier chiffre dans la colonne du retenue.
+Regle 65 fin :
+
+Regle 65 debut :
+-Vous avez effectué la soustraction correctement dans certain colonne,
+vous appliquez ici une règle qui dit "il faut decrementez le retenue de l'emprunt".
+-Vous ne traitez pas le retenue de l'emprunt correctement, 
+vous devez decrementez le premier chiffre dans la colonne du retenue.
+Regle 65 fin
+
+Regle 63 debut :
+Vous avez bien effectue l'opération de soustraction dans la première colonne, mais dans le principe de soustraction on effectue les opérations colonne par colonne.
+			Donc s'il est nécessaire d'effectue plusieurs emprunts, on les effectues tout on appliquons le principe d'emprunt.
+Regle 63 fin :
+
+Regle 66 debut :
+Chaque emprunt est systématiquement suivis d'une decrementation de 1 de la colonne dont vous avez emprunter ( celle de gauche). 
+Regle 66 fin
+
+Regle 67 debut : 
+Dans le cas où N est superieur à 1, Vous devez emprunter,et continuer l'opération . 
+Regle 67 fin
+
+Regle 68 debut :
+Quand une colonne est sous forme de N-N le resultat est non pas N mais bien 0 .
+Regle 68 fin

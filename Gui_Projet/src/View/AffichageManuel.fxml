@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EFECCA;" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+    <stylesheets>
+        <URL value="@/Css/affichagemanuel.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="246.0" layoutY="14.0" text="Affichage">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="288.0" fitWidth="308.0" layoutX="312.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/affichage.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="14.0" layoutY="114.0" prefHeight="200.0" prefWidth="255.0" text="Aprés validation de votre&#10;opération vous voyez dans cette&#10;zone l'affichage du résultat ,&#10;analyse , diagnostique .&#10;essayer de lire attentivement pour&#10;bien comprendre et apprendre &#10;de vos erreurs  ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <Line endX="122.0" layoutX="472.0" layoutY="56.0" startX="-160.0" stroke="#f50808" strokeWidth="3.0" />
+      <Line endX="34.0" endY="258.0" layoutX="278.0" layoutY="86.0" startX="32.5" startY="-28.5" stroke="#f20808" strokeWidth="3.0" />
+      <Line endX="34.0" endY="258.0" layoutX="562.0" layoutY="85.0" startX="32.5" startY="-28.5" stroke="#f20808" strokeWidth="3.0" />
+      <Line endX="122.0" layoutX="472.0" layoutY="346.0" startX="-160.0" stroke="#f50808" strokeWidth="3.0" />
+      <Button layoutX="492.0" layoutY="361.0" mnemonicParsing="false" onAction="#finish" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: green;" text="Fin" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

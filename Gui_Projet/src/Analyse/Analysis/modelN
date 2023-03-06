@@ -1,0 +1,3 @@
+Regle 85 : vous ne décrémentez pas une colonne sauf si le nombre du bas est plus petit que celui du haut.
+Regle 87 : Quand vous empruntez, vous décrémentez le plus grand nombre dans la colonne, peu importe qu’il soit en haut ou en bas.
+

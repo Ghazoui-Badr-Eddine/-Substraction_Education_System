@@ -1,0 +1,6 @@
+Regle 26 : - Quand vouz empruntez, vous décrémentez correctement, puis, colonne par colonne, vous\ soustrait le plus petit chiffre du plus grand comme si vous n’avait pas emprunté.
+Regle 28 : - Quand vous empruntez, vous sautez les colonnes dans lesquelles le nombre du haut et du bas sont égaux.
+Regle 31 : - vous changez le nombre pour lequel il faut emprunter en 10 au lieu de lui ajouter 10
+Regle 34 : - Quand vous empruntez sur un 0, vous sautez le 0 pour emprunter de la colonne suivante. Si cela le force à emprunter deux fois, vous diminuez le même chiffre à deux reprises.
+Regle 39 : - La première colonne qui demande un emprunt est décrémentée avant de soustraire
+Regle 47 : Au lieu d’emprunter sur un 0, vous changez le 0 en 9, mais vous ne continuez pas pour emprunter de la colonne de gauche. Cependant, si le chiffre à gauche du 0 est au-dessus d’unvide, vous procèdez alors de manière correcte.

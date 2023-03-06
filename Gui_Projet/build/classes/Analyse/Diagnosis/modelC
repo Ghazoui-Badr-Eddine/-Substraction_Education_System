@@ -1,0 +1,20 @@
+Regle 17 debut :
+-Vous avez effectué la soustraction dans la 1er colonne correctement 
+-Vous ne resepectez pas le principe de soustraction " soustrayer le nombre bas du nombre haut tout entier "
+-continuer l'opération tantque 'il existe des chiffres en haut 
+Regle 17 fin :
+
+
+Regle 19 debut :
+-Vous avez effectué la soustraction dans la 1er colonne correctement 
+-Vous prenez pas en considération les unités , les dizaines,les centaines
+-Vous ne respectez pas le principe de soustraction lorsqu'il s'agit des vides 
+-Vous ajouter des chiffres au nombre bas sans raison
+Regle 19 fin :
+
+Regle 20 debut :
+-Vous avez effectué la soustraction dans la 1er colonne correctement
+-Vous ne prenez pas en considération les unités , les dizaines,les centaines
+-Vous ne respectez pas les dispositions des chiffres de la colonne traité
+-Vous ne respectez pas le principe de soustraction lorsqu'il s'agit de 0
+Regle 20 fin :

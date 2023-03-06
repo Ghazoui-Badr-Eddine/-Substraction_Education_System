@@ -1,0 +1,2 @@
+Regle 57 : Quand un emprunt est causé par un 0, vous n’ajoutez pas correctement 10. vous ajoutez plutôt 10 plus le chiffre dans la colonne suivante à gauche.
+Regle 61 : Quand un emprunt est causé par un 0, vous avez ajoute 10 correctement, mais vous n'avez change aucune colonne à gauche.

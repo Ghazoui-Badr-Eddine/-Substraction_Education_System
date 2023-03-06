@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="900.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlleur.Espace_TravailController">
+    <stylesheets>
+        <URL value="@/Css/espace_travail.css" />
+    </stylesheets>
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="32.0" prefWidth="900.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Fichier">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#Commencer" text="Commencer" />
+              <MenuItem fx:id="close" mnemonicParsing="false" onAction="#close" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Exemples">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#SE" text="Sans emprunt" />
+                  <MenuItem mnemonicParsing="false" onAction="#S1E" text="Avec un seul emprunt" />
+                  <MenuItem mnemonicParsing="false" onAction="#S2E" text="Avec deux emprunts" />
+                  <MenuItem mnemonicParsing="false" onAction="#DZH" text="Avec des zeros en Haut" />
+                  <MenuItem mnemonicParsing="false" onAction="#S1Z" text="Avec un zéro en haut" />
+                  <MenuItem mnemonicParsing="false" onAction="#DZB" text="Avec des zéros en bas" />
+                  <MenuItem mnemonicParsing="false" onAction="#Z1B" text="Avec un zéro en bas" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Resolution">
+               <items>
+                  <MenuItem fx:id="RsMenuItem" mnemonicParsing="false" onAction="#Resoudre" text="Résoudre le probléme" />
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="Informations">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#how" text="Manuel d'utilisation du systéme" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="About">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#about" text="About Us " />
+                  <MenuItem mnemonicParsing="false" onAction="#contact" text="Contact Us" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <SplitPane dividerPositions="0.19843342036553524, 0.7911227154046997" layoutY="46.0" orientation="VERTICAL" prefHeight="487.0" prefWidth="441.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="449.0" AnchorPane.topAnchor="46.0">
+        <items>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="1.0" prefHeight="27.0" prefWidth="83.0" text="Etape 1 : " textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="18.0" />
+                     </font></Label>
+                  <Label layoutX="14.0" layoutY="37.0" prefHeight="17.0" prefWidth="194.0" text="Cliquer sur nouveau probléme" />
+                  <Button layoutX="270.0" layoutY="16.0" mnemonicParsing="false" onAction="#Commencer" prefHeight="42.0" prefWidth="162.0" style="-fx-background-color: blue;" text="Nouveau probléme" textFill="#f5f3f3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="221.0" prefWidth="291.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="1.0" prefHeight="27.0" prefWidth="104.0" text="Etape 2 :" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="18.0" />
+                     </font></Label>
+                  <Label layoutX="96.0" layoutY="6.0" prefHeight="17.0" prefWidth="206.0" text="Effectuez vos opérations" />
+                  <TextFlow layoutX="185.0" layoutY="85.0" prefHeight="20.0" prefWidth="80.0">
+                     <children>
+                        <TextField fx:id="ED2" editable="false" prefHeight="20.0" prefWidth="40.0" />
+                        <TextField fx:id="EU2" alignment="CENTER_RIGHT" editable="false" prefHeight="20.0" prefWidth="40.0" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextFlow>
+                  <TextFlow layoutX="185.0" layoutY="118.0" prefHeight="40.0" prefWidth="120.0">
+                     <children>
+                        <TextField fx:id="C1" editable="false" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></TextField>
+                        <TextField fx:id="D1" editable="false" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></TextField>
+                        <TextField fx:id="U1" editable="false" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></TextField>
+                        <TextField fx:id="C2" editable="false" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></TextField>
+                        <TextField fx:id="D2" editable="false" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></TextField>
+                        <TextField fx:id="U2" editable="false" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></TextField>
+                     </children>
+                  </TextFlow>
+                  <TextFlow layoutX="185.0" layoutY="225.0" prefHeight="20.0" prefWidth="120.0">
+                     <children>
+                        <TextField fx:id="RC" editable="false" onMouseClicked="#verfierSup" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;" />
+                        <TextField fx:id="RD" editable="false" onMouseClicked="#verfierSup" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;" />
+                        <TextField fx:id="RU" editable="false" onMouseClicked="#verfierSup" prefHeight="20.0" prefWidth="40.0" style="-fx-background-color: yellow; -fx-border-color: black;" />
+                     </children>
+                  </TextFlow>
+                  <Line endX="180.0" endY="242.5" layoutX="-13.0" layoutY="-94.0" startX="160.0" startY="242.5" strokeWidth="2.0" />
+                  <TextFlow layoutX="225.0" layoutY="45.0" prefHeight="20.0" prefWidth="80.0">
+                     <children>
+                        <TextField fx:id="ED1" editable="false" prefHeight="20.0" prefWidth="40.0" />
+                        <TextField fx:id="EU1" editable="false" prefHeight="20.0" prefWidth="40.0" />
+                     </children>
+                  </TextFlow>
+                  <Label layoutX="53.0" layoutY="123.0" prefHeight="17.0" prefWidth="83.0" text="nombre haut">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="54.0" layoutY="165.0" text="nombre bas">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="56.0" layoutY="230.0" prefHeight="17.0" prefWidth="80.0" text="Résultat">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="62.0" text="Les empruntes">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Line endX="60.0" layoutX="258.0" layoutY="203.0" startX="-90.0" strokeWidth="2.0" />
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="7.0" prefHeight="27.0" prefWidth="92.0" text="Etape 3 :" textAlignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="18.0" />
+                     </font></Label>
+                  <Label layoutX="14.0" layoutY="51.0" text="Valider et faire la diagnostique" />
+                  <Button fx:id="val" disable="true" layoutX="273.0" layoutY="38.0" mnemonicParsing="false" onAction="#Résolution" prefHeight="42.0" prefWidth="152.0" style="-fx-background-color: green;" text="Valider" textFill="#fffefe">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+      <Pane layoutX="465.0" layoutY="50.0" prefHeight="435.0" prefWidth="425.0">
+         <children>
+            <TextArea fx:id="affichage" editable="false" layoutX="12.0" layoutY="36.0" prefHeight="392.0" prefWidth="402.0" />
+            <Label layoutX="150.0" layoutY="4.0" prefHeight="20.0" prefWidth="130.0" text="Affichage ">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

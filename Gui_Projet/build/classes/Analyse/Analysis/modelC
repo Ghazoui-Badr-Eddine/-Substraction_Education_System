@@ -1,0 +1,4 @@
+
+Regle 17 : - Quand le nombre du bas comporte moins de chiffre que celui du haut, vous arrêtez l’exercice à la colonne où s’arrête le nombre du bas
+Regle 19 : - Quand il y a des 0 / vide dans le nombre du bas, vous soustrayez 1 des chiffres du haut.
+Regle 20 : - Vous ignorez toute colonne de la forme 0 sur un vide
